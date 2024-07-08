@@ -6,27 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-winit = { version = "0.29.10", default-features = false, features = [ "rwh_06", "x11" ] }
-softbuffer = { version = "0.4.1", default-features = false, features = [ "x11" ] }
-raqote = "0.8.4"
 quaternion = "1.0.0"
-
-flo_draw = "0.4"
-flo_canvas = "0.4"
-flo_render = { version ="0.4", features = ["opengl"] }
-flo_render_canvas = "0.4"
-
-futures = "0.3.30"
-
-[patch.crates-io]
-flo_draw                = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_canvas              = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_canvas_events       = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_render              = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_render_canvas       = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_render_gl_offscreen = { git = "https://github.com/Brayan-724/flo_draw", branch = "v0.4" }
-flo_scene               = { git = "https://github.com/Brayan-724/flo_scene", branch = "v0.2" }
-
-flo_binding             = { git = "https://github.com/Logicalshift/flo_binding", branch = "v3.0" }
-flo_curves              = { git = "https://github.com/Logicalshift/flo_curves", branch = "v0.8" }
-desync                  = { git = "https://github.com/Logicalshift/desync", branch = "v0.9" }
+sdl2 = "0.37.0"

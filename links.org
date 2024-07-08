@@ -1,0 +1,4 @@
+* External Reference
+** Manim
+  - 3D projection: https://github.com/ManimCommunity/manim/blob/73200d6644af285b26c1698c3058822794392e14/manim/camera/three_d_camera.py#L311
+
